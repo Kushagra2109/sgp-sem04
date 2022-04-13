@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(105, 176, 218);
+}
+.boat {
+    width: 300px;
+    height: 400px;
+    background-image: url("boatss.jfif1");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top:200px;
+    left:0px;
+    animation-name: anime;
+    animation-duration: 13s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transition: width 1s,height 2s;
+  }
+  .boat:hover{
+    width: 200px;
+    height: 200px;
+  }
+  @keyframes anime {
+    0%   {left:0%;}
+    15%  {transform: rotate(0deg);}
+    20%  {transform: rotate(15deg);}
+    25%  {transform: rotate(-15deg);}
+    30%  {transform: rotate(30deg);}
+    35%  {transform: rotate(0deg);}
+    50%  {left: calc(100% - 150px);}
+    65%  {transform: rotate(0deg);}
+    70%  {transform: rotate(25deg);}
+    75%  {transform: rotate(-15deg);}
+    80%  {transform: rotate(10deg);}
+    85%  {transform: rotate(0deg);}
+    100% {left:0%;}
+  }

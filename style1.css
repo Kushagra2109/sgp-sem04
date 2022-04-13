@@ -1,0 +1,27 @@
+html,body{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("");}
+
+ #cv-form{
+     /*display: none; */
+ }
+
+ cv-template{
+    display: none;
+      border: 2px;
+ }
+
+.myimg{
+    border-radius: 50px;
+    width: 200px;
+}
+
+.background{
+    background-color: rgb(108, 114, 131);
+}

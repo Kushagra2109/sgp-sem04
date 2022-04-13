@@ -1,0 +1,99 @@
+@import url('http://fonts.googleapis.com/csss?family=Poppins:200,300.400,500,600,700,800,900&display=swap');
+*
+{
+    margin: auto;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-image: url("login1.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+section{
+    position:absolute;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items:stretch;
+    
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+header .logo
+{
+    position: relative;
+    background-image: url("logo.png");
+    background-position:center;
+}
+header ul 
+{
+position: relative;
+display: flex;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a
+{
+    display: inline-block;
+    color:black;
+    font-weight: 500;
+    margin-left: 35px;
+    text-decoration: none;
+    position: relative;
+    left: 200;
+}
+.content
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .yoyo
+{
+    position: initial;
+    max-width: 600px;
+}
+.content .yoyo h1
+{
+    color: black;
+    font-size: 1em;
+    line-height: 1.3em;
+    font-weight: 500;
+}
+.content .yoyo h1 span 
+{
+    color: brown;
+    line-height: 0.8;
+    font-size: 4em;
+    font-weight: 900;
+}
+.content .yoyo a
+{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: rgb(223, 175, 86);
+    color: black;
+    border-radius: 40px;
+    font-weight: 50px;
+    letter-spacing: 1px;
+}
+
